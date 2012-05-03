@@ -1,0 +1,7 @@
+# Running the test
+
+There should already be a failing cassette in the fixtures dir. To run the server use the 'shotgun config.ru' command.
+
+This go to the port in your browser and sign into Instagram. The browser should indicate an error.
+
+If you want to start from scratch remove the current cassette and sign-in. You will see your images from Instagram and the cassette will be created. Refresh to use the cassette and you should see the error.
