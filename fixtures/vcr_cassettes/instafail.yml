@@ -1,0 +1,205 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.instagram.com/v1/users/self/media/recent.json?access_token=22599300.f842cdd.252e5467ab5b4658ad5a344a77acd08d
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json; charset=utf-8
+      User-Agent:
+      - Instagram Ruby Gem 0.8.3
+      Authorization:
+      - Token token="22599300.f842cdd.252e5467ab5b4658ad5a344a77acd08d"
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      !binary "Y29udGVudC1sYW5ndWFnZQ==":
+      - !binary |-
+        ZW4=
+      !binary "Y29udGVudC10eXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      !binary "ZGF0ZQ==":
+      - !binary |-
+        VGh1LCAwMyBNYXkgMjAxMiAxNToyODo1MiBHTVQ=
+      !binary "c2VydmVy":
+      - !binary |-
+        bmdpbngvMC44LjU0
+      !binary "dmFyeQ==":
+      - !binary |-
+        QWNjZXB0LUxhbmd1YWdlLCBDb29raWU=
+      !binary "eC1yYXRlbGltaXQtbGltaXQ=":
+      - !binary |-
+        NTAwMA==
+      !binary "eC1yYXRlbGltaXQtcmVtYWluaW5n":
+      - !binary |-
+        NTAwMA==
+      !binary "Y29udGVudC1sZW5ndGg=":
+      - !binary |-
+        MTQ4NA==
+      !binary "Y29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
+    body:
+      encoding: US-ASCII
+      string: ! '#<Hashie::Mash data=[#<Hashie::Mash attribution=nil caption=nil comments=#<Hashie::Mash
+        count=0 data=[]> created_time="1335764579" filter="Normal" id="180728851465450792_22599300"
+        images=#<Hashie::Mash low_resolution=#<Hashie::Mash height=306 url="http://distilleryimage4.s3.amazonaws.com/5845149c928711e19e4a12313813ffc0_6.jpg"
+        width=306> standard_resolution=#<Hashie::Mash height=612 url="http://distilleryimage4.s3.amazonaws.com/5845149c928711e19e4a12313813ffc0_7.jpg"
+        width=612> thumbnail=#<Hashie::Mash height=150 url="http://distilleryimage4.s3.amazonaws.com/5845149c928711e19e4a12313813ffc0_5.jpg"
+        width=150>> likes=#<Hashie::Mash count=1 data=[#<Hashie::Mash full_name="Rich
+        Friedrich" id="11063017" profile_picture="http://images.instagram.com/profiles/profile_11063017_75sq_1318728056.jpg"
+        username="richfphotos">]> link="http://instagr.am/p/KCE-7QQzUo/" location=#<Hashie::Mash
+        latitude=37.297904968 longitude=-122.040916442> tags=[] type="image" user=#<Hashie::Mash
+        bio="" full_name="jam1401" id="22599300" profile_picture="http://images.instagram.com/profiles/anonymousUser.jpg"
+        username="jam1401" website=""> user_has_liked=false>, #<Hashie::Mash attribution=nil
+        caption=nil comments=#<Hashie::Mash count=0 data=[]> created_time="1335764544"
+        filter="Normal" id="180728558820472102_22599300" images=#<Hashie::Mash low_resolution=#<Hashie::Mash
+        height=306 url="http://distilleryimage10.s3.amazonaws.com/4379a6fe928711e192e91231381b3d7a_6.jpg"
+        width=306> standard_resolution=#<Hashie::Mash height=612 url="http://distilleryimage10.s3.amazonaws.com/4379a6fe928711e192e91231381b3d7a_7.jpg"
+        width=612> thumbnail=#<Hashie::Mash height=150 url="http://distilleryimage10.s3.amazonaws.com/4379a6fe928711e192e91231381b3d7a_5.jpg"
+        width=150>> likes=#<Hashie::Mash count=1 data=[#<Hashie::Mash full_name="Dan
+        Brandenburg" id="45655413" profile_picture="http://images.instagram.com/profiles/profile_45655413_75sq_1335137177.jpg"
+        username="danbrandenburg">]> link="http://instagr.am/p/KCE6qtQzUm/" location=#<Hashie::Mash
+        latitude=37.297733306 longitude=-122.040596008> tags=[] type="image" user=#<Hashie::Mash
+        bio="" full_name="jam1401" id="22599300" profile_picture="http://images.instagram.com/profiles/anonymousUser.jpg"
+        username="jam1401" website=""> user_has_liked=false>, #<Hashie::Mash attribution=nil
+        caption=nil comments=#<Hashie::Mash count=0 data=[]> created_time="1335661157"
+        filter="Normal" id="179861282206463161_22599300" images=#<Hashie::Mash low_resolution=#<Hashie::Mash
+        height=306 url="http://distilleryimage1.s3.amazonaws.com/8bc40644919611e1b9f1123138140926_6.jpg"
+        width=306> standard_resolution=#<Hashie::Mash height=612 url="http://distilleryimage1.s3.amazonaws.com/8bc40644919611e1b9f1123138140926_7.jpg"
+        width=612> thumbnail=#<Hashie::Mash height=150 url="http://distilleryimage1.s3.amazonaws.com/8bc40644919611e1b9f1123138140926_5.jpg"
+        width=150>> likes=#<Hashie::Mash count=0 data=[]> link="http://instagr.am/p/J-_uIawzS5/"
+        location=nil tags=[] type="image" user=#<Hashie::Mash bio="" full_name="jam1401"
+        id="22599300" profile_picture="http://images.instagram.com/profiles/anonymousUser.jpg"
+        username="jam1401" website=""> user_has_liked=false>, #<Hashie::Mash attribution=nil
+        caption=nil comments=#<Hashie::Mash count=0 data=[]> created_time="1335661128"
+        filter="Normal" id="179861039909909685_22599300" images=#<Hashie::Mash low_resolution=#<Hashie::Mash
+        height=306 url="http://distilleryimage9.s3.amazonaws.com/7a8d040c919611e1abd61231381b6d77_6.jpg"
+        width=306> standard_resolution=#<Hashie::Mash height=612 url="http://distilleryimage9.s3.amazonaws.com/7a8d040c919611e1abd61231381b6d77_7.jpg"
+        width=612> thumbnail=#<Hashie::Mash height=150 url="http://distilleryimage9.s3.amazonaws.com/7a8d040c919611e1abd61231381b6d77_5.jpg"
+        width=150>> likes=#<Hashie::Mash count=0 data=[]> link="http://instagr.am/p/J-_qmwwzS1/"
+        location=nil tags=[] type="image" user=#<Hashie::Mash bio="" full_name="jam1401"
+        id="22599300" profile_picture="http://images.instagram.com/profiles/anonymousUser.jpg"
+        username="jam1401" website=""> user_has_liked=false>, #<Hashie::Mash attribution=nil
+        caption=nil comments=#<Hashie::Mash count=0 data=[]> created_time="1335634317"
+        filter="Normal" id="179636131699308152_22599300" images=#<Hashie::Mash low_resolution=#<Hashie::Mash
+        height=306 url="http://distilleryimage8.s3.amazonaws.com/0ddbfb62915811e1b10e123138105d6b_6.jpg"
+        width=306> standard_resolution=#<Hashie::Mash height=612 url="http://distilleryimage8.s3.amazonaws.com/0ddbfb62915811e1b10e123138105d6b_7.jpg"
+        width=612> thumbnail=#<Hashie::Mash height=150 url="http://distilleryimage8.s3.amazonaws.com/0ddbfb62915811e1b10e123138105d6b_5.jpg"
+        width=150>> likes=#<Hashie::Mash count=1 data=[#<Hashie::Mash full_name="Rich
+        Friedrich" id="11063017" profile_picture="http://images.instagram.com/profiles/profile_11063017_75sq_1318728056.jpg"
+        username="richfphotos">]> link="http://instagr.am/p/J-MhwqwzZ4/" location=nil
+        tags=[] type="image" user=#<Hashie::Mash bio="" full_name="jam1401" id="22599300"
+        profile_picture="http://images.instagram.com/profiles/anonymousUser.jpg" username="jam1401"
+        website=""> user_has_liked=false>, #<Hashie::Mash attribution=nil caption=nil
+        comments=#<Hashie::Mash count=0 data=[]> created_time="1335634304" filter="Normal"
+        id="179636026950760054_22599300" images=#<Hashie::Mash low_resolution=#<Hashie::Mash
+        height=306 url="http://distilleryimage10.s3.amazonaws.com/066b01fc915811e1a87612313804ec91_6.jpg"
+        width=306> standard_resolution=#<Hashie::Mash height=612 url="http://distilleryimage10.s3.amazonaws.com/066b01fc915811e1a87612313804ec91_7.jpg"
+        width=612> thumbnail=#<Hashie::Mash height=150 url="http://distilleryimage10.s3.amazonaws.com/066b01fc915811e1a87612313804ec91_5.jpg"
+        width=150>> likes=#<Hashie::Mash count=1 data=[#<Hashie::Mash full_name="Rich
+        Friedrich" id="11063017" profile_picture="http://images.instagram.com/profiles/profile_11063017_75sq_1318728056.jpg"
+        username="richfphotos">]> link="http://instagr.am/p/J-MgPHQzZ2/" location=nil
+        tags=[] type="image" user=#<Hashie::Mash bio="" full_name="jam1401" id="22599300"
+        profile_picture="http://images.instagram.com/profiles/anonymousUser.jpg" username="jam1401"
+        website=""> user_has_liked=false>, #<Hashie::Mash attribution=nil caption=nil
+        comments=#<Hashie::Mash count=0 data=[]> created_time="1335634291" filter="Normal"
+        id="179635910718207605_22599300" images=#<Hashie::Mash low_resolution=#<Hashie::Mash
+        height=306 url="http://distilleryimage5.s3.amazonaws.com/fe28f0f8915711e1ab011231381052c0_6.jpg"
+        width=306> standard_resolution=#<Hashie::Mash height=612 url="http://distilleryimage5.s3.amazonaws.com/fe28f0f8915711e1ab011231381052c0_7.jpg"
+        width=612> thumbnail=#<Hashie::Mash height=150 url="http://distilleryimage5.s3.amazonaws.com/fe28f0f8915711e1ab011231381052c0_5.jpg"
+        width=150>> likes=#<Hashie::Mash count=0 data=[]> link="http://instagr.am/p/J-Mei3QzZ1/"
+        location=nil tags=[] type="image" user=#<Hashie::Mash bio="" full_name="jam1401"
+        id="22599300" profile_picture="http://images.instagram.com/profiles/anonymousUser.jpg"
+        username="jam1401" website=""> user_has_liked=false>, #<Hashie::Mash attribution=nil
+        caption=nil comments=#<Hashie::Mash count=0 data=[]> created_time="1335634279"
+        filter="Normal" id="179635814895138420_22599300" images=#<Hashie::Mash low_resolution=#<Hashie::Mash
+        height=306 url="http://distilleryimage0.s3.amazonaws.com/f7595d58915711e18bb812313804a181_6.jpg"
+        width=306> standard_resolution=#<Hashie::Mash height=612 url="http://distilleryimage0.s3.amazonaws.com/f7595d58915711e18bb812313804a181_7.jpg"
+        width=612> thumbnail=#<Hashie::Mash height=150 url="http://distilleryimage0.s3.amazonaws.com/f7595d58915711e18bb812313804a181_5.jpg"
+        width=150>> likes=#<Hashie::Mash count=0 data=[]> link="http://instagr.am/p/J-MdJnwzZ0/"
+        location=nil tags=[] type="image" user=#<Hashie::Mash bio="" full_name="jam1401"
+        id="22599300" profile_picture="http://images.instagram.com/profiles/anonymousUser.jpg"
+        username="jam1401" website=""> user_has_liked=false>, #<Hashie::Mash attribution=nil
+        caption=nil comments=#<Hashie::Mash count=0 data=[]> created_time="1335634263"
+        filter="Normal" id="179635681113618035_22599300" images=#<Hashie::Mash low_resolution=#<Hashie::Mash
+        height=306 url="http://distilleryimage11.s3.amazonaws.com/edd88330915711e1a9f71231382044a1_6.jpg"
+        width=306> standard_resolution=#<Hashie::Mash height=612 url="http://distilleryimage11.s3.amazonaws.com/edd88330915711e1a9f71231382044a1_7.jpg"
+        width=612> thumbnail=#<Hashie::Mash height=150 url="http://distilleryimage11.s3.amazonaws.com/edd88330915711e1a9f71231382044a1_5.jpg"
+        width=150>> likes=#<Hashie::Mash count=0 data=[]> link="http://instagr.am/p/J-MbNBwzZz/"
+        location=nil tags=[] type="image" user=#<Hashie::Mash bio="" full_name="jam1401"
+        id="22599300" profile_picture="http://images.instagram.com/profiles/anonymousUser.jpg"
+        username="jam1401" website=""> user_has_liked=false>, #<Hashie::Mash attribution=nil
+        caption=nil comments=#<Hashie::Mash count=0 data=[]> created_time="1335634234"
+        filter="Normal" id="179635433565795950_22599300" images=#<Hashie::Mash low_resolution=#<Hashie::Mash
+        height=306 url="http://distilleryimage2.s3.amazonaws.com/dc41e0bc915711e180c9123138016265_6.jpg"
+        width=306> standard_resolution=#<Hashie::Mash height=612 url="http://distilleryimage2.s3.amazonaws.com/dc41e0bc915711e180c9123138016265_7.jpg"
+        width=612> thumbnail=#<Hashie::Mash height=150 url="http://distilleryimage2.s3.amazonaws.com/dc41e0bc915711e180c9123138016265_5.jpg"
+        width=150>> likes=#<Hashie::Mash count=0 data=[]> link="http://instagr.am/p/J-MXmewzZu/"
+        location=nil tags=[] type="image" user=#<Hashie::Mash bio="" full_name="jam1401"
+        id="22599300" profile_picture="http://images.instagram.com/profiles/anonymousUser.jpg"
+        username="jam1401" website=""> user_has_liked=false>, #<Hashie::Mash attribution=nil
+        caption=nil comments=#<Hashie::Mash count=0 data=[]> created_time="1335634221"
+        filter="Normal" id="179635323658253931_22599300" images=#<Hashie::Mash low_resolution=#<Hashie::Mash
+        height=306 url="http://distilleryimage3.s3.amazonaws.com/d4725dbc915711e18cf91231380fd29b_6.jpg"
+        width=306> standard_resolution=#<Hashie::Mash height=612 url="http://distilleryimage3.s3.amazonaws.com/d4725dbc915711e18cf91231380fd29b_7.jpg"
+        width=612> thumbnail=#<Hashie::Mash height=150 url="http://distilleryimage3.s3.amazonaws.com/d4725dbc915711e18cf91231380fd29b_5.jpg"
+        width=150>> likes=#<Hashie::Mash count=0 data=[]> link="http://instagr.am/p/J-MWAHwzZr/"
+        location=nil tags=[] type="image" user=#<Hashie::Mash bio="" full_name="jam1401"
+        id="22599300" profile_picture="http://images.instagram.com/profiles/anonymousUser.jpg"
+        username="jam1401" website=""> user_has_liked=false>, #<Hashie::Mash attribution=nil
+        caption=nil comments=#<Hashie::Mash count=0 data=[]> created_time="1335634203"
+        filter="Normal" id="179635176379463274_22599300" images=#<Hashie::Mash low_resolution=#<Hashie::Mash
+        height=306 url="http://distilleryimage6.s3.amazonaws.com/c9fbcaee915711e1989612313815112c_6.jpg"
+        width=306> standard_resolution=#<Hashie::Mash height=612 url="http://distilleryimage6.s3.amazonaws.com/c9fbcaee915711e1989612313815112c_7.jpg"
+        width=612> thumbnail=#<Hashie::Mash height=150 url="http://distilleryimage6.s3.amazonaws.com/c9fbcaee915711e1989612313815112c_5.jpg"
+        width=150>> likes=#<Hashie::Mash count=0 data=[]> link="http://instagr.am/p/J-MT29QzZq/"
+        location=nil tags=[] type="image" user=#<Hashie::Mash bio="" full_name="jam1401"
+        id="22599300" profile_picture="http://images.instagram.com/profiles/anonymousUser.jpg"
+        username="jam1401" website=""> user_has_liked=false>, #<Hashie::Mash attribution=nil
+        caption=nil comments=#<Hashie::Mash count=0 data=[]> created_time="1335634185"
+        filter="Normal" id="179635025183192681_22599300" images=#<Hashie::Mash low_resolution=#<Hashie::Mash
+        height=306 url="http://distilleryimage5.s3.amazonaws.com/bf3d08ac915711e1be6a12313820455d_6.jpg"
+        width=306> standard_resolution=#<Hashie::Mash height=612 url="http://distilleryimage5.s3.amazonaws.com/bf3d08ac915711e1be6a12313820455d_7.jpg"
+        width=612> thumbnail=#<Hashie::Mash height=150 url="http://distilleryimage5.s3.amazonaws.com/bf3d08ac915711e1be6a12313820455d_5.jpg"
+        width=150>> likes=#<Hashie::Mash count=0 data=[]> link="http://instagr.am/p/J-MRqJQzZp/"
+        location=nil tags=[] type="image" user=#<Hashie::Mash bio="" full_name="jam1401"
+        id="22599300" profile_picture="http://images.instagram.com/profiles/anonymousUser.jpg"
+        username="jam1401" website=""> user_has_liked=false>, #<Hashie::Mash attribution=nil
+        caption=nil comments=#<Hashie::Mash count=0 data=[]> created_time="1335634163"
+        filter="Normal" id="179634839266473575_22599300" images=#<Hashie::Mash low_resolution=#<Hashie::Mash
+        height=306 url="http://distilleryimage11.s3.amazonaws.com/b20801fa915711e1a92a1231381b6f02_6.jpg"
+        width=306> standard_resolution=#<Hashie::Mash height=612 url="http://distilleryimage11.s3.amazonaws.com/b20801fa915711e1a92a1231381b6f02_7.jpg"
+        width=612> thumbnail=#<Hashie::Mash height=150 url="http://distilleryimage11.s3.amazonaws.com/b20801fa915711e1a92a1231381b6f02_5.jpg"
+        width=150>> likes=#<Hashie::Mash count=0 data=[]> link="http://instagr.am/p/J-MO8_wzZn/"
+        location=nil tags=[] type="image" user=#<Hashie::Mash bio="" full_name="jam1401"
+        id="22599300" profile_picture="http://images.instagram.com/profiles/anonymousUser.jpg"
+        username="jam1401" website=""> user_has_liked=false>, #<Hashie::Mash attribution=nil
+        caption=nil comments=#<Hashie::Mash count=0 data=[]> created_time="1335634101"
+        filter="Normal" id="179634321555142240_22599300" images=#<Hashie::Mash low_resolution=#<Hashie::Mash
+        height=306 url="http://distilleryimage4.s3.amazonaws.com/8d3e1d1e915711e1b9f1123138140926_6.jpg"
+        width=306> standard_resolution=#<Hashie::Mash height=612 url="http://distilleryimage4.s3.amazonaws.com/8d3e1d1e915711e1b9f1123138140926_7.jpg"
+        width=612> thumbnail=#<Hashie::Mash height=150 url="http://distilleryimage4.s3.amazonaws.com/8d3e1d1e915711e1b9f1123138140926_5.jpg"
+        width=150>> likes=#<Hashie::Mash count=0 data=[]> link="http://instagr.am/p/J-MHa1wzZg/"
+        location=nil tags=[] type="image" user=#<Hashie::Mash bio="" full_name="jam1401"
+        id="22599300" profile_picture="http://images.instagram.com/profiles/anonymousUser.jpg"
+        username="jam1401" website=""> user_has_liked=false>, #<Hashie::Mash attribution=nil
+        caption=nil comments=#<Hashie::Mash count=0 data=[]> created_time="1335634064"
+        filter="X-Pro II" id="179634011596076638_22599300" images=#<Hashie::Mash low_resolution=#<Hashie::Mash
+        height=306 url="http://distilleryimage10.s3.amazonaws.com/7738c352915711e1a92a1231381b6f02_6.jpg"
+        width=306> standard_resolution=#<Hashie::Mash height=612 url="http://distilleryimage10.s3.amazonaws.com/7738c352915711e1a92a1231381b6f02_7.jpg"
+        width=612> thumbnail=#<Hashie::Mash height=150 url="http://distilleryimage10.s3.amazonaws.com/7738c352915711e1a92a1231381b6f02_5.jpg"
+        width=150>> likes=#<Hashie::Mash count=0 data=[]> link="http://instagr.am/p/J-MC6KwzZe/"
+        location=nil tags=[] type="image" user=#<Hashie::Mash bio="" full_name="jam1401"
+        id="22599300" profile_picture="http://images.instagram.com/profiles/anonymousUser.jpg"
+        username="jam1401" website=""> user_has_liked=false>] meta=#<Hashie::Mash
+        code=200> pagination=#<Hashie::Mash>>'
+    http_version: 
+  recorded_at: Thu, 03 May 2012 15:28:52 GMT
+recorded_with: VCR 2.0.0

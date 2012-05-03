@@ -1,0 +1,4 @@
+CLIENT_ID = 'f842cdd389874d9fb3f99ad0efcc95ef'
+CLIENT_SECRET = ''
+ACCESS_TOKEN = ''
+ANONYMOUS_PICTURE = 'http://images.instagram.com/profiles/anonymousUser.jpg'
